@@ -1,9 +1,24 @@
-<!doctype Html>
+<!doctype html>
 <html>
-    <head>
-<h1> Aprenda inglês de maneira natural!</h1>
-<head/>
+<head>
+    <link rel="stylesheet" type="text/css"
+    href="startproject.css">
+</head>
 <body>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Npf8dy3Tus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <nav id= "menu-h"
+
+        <ul id="menu-h"> 
+            <li><a href="https://www.parkeducation.com.br/"></a> Menu</li>
+            <li><a href="https://www.parkeducation.com.br/"></a> Sobre</li>
+            <li><a href="#"></a>Quem somos</li>
+            <li><a href="#"></a> Contato</li>
+            <li><a href="#"></a> Entrar</li>
+        </ul>
+    </nav>
+    <p class="titulo"> Destrave seu inglês agora</p>
+<button class="myButton"> Agende uma aula experimental </button>
+
 </body>
-<html/>
+
+
+</html>

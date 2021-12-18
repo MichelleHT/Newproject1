@@ -1,6 +1,81 @@
-body {
-  font-family: system-ui;
-  background: #FF00FF;
-  color: white;
-  text-align: center;
+body{ 
+
+    text-align: center;
+    background-image: url('parktemplatepost.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 25px;
+    
+
+}
+.titulo{
+    font-family: Arial ;
+    font-size: 80px;
+    color: rgb(235, 235, 47);
+    text-align: center, top;
+    line-height: 3;
+    letter-spacing: 1px;
+    font-style: bold;
+    font-weight: 700;
+}
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:20px;
+	border:5px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	padding:11px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+*{
+margin: o auto;
+padding: 0;
+box-sizing:border-box;
+font-family:'Montserrat', sans-serif;
+}
+
+#menu-h ul{
+list-style: none;
+padding: 0;
+background-color: rgb(90, 43, 177);
+}
+
+#menu-h ul li{
+display: inline;
+
+}
+#menu-h ul li a{
+    display: inline;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 20px;
+    display:inline-block;
+    transition: back-ground, 3s;
+}
+
+#menu-h ul li a:hover{
+background-color: rgb(177, 43, 136);
+
+}
+
+#menu-h ul li:last-child a{
+    float:right;
+    background-color: rgb(177, 43, 136);
+
 }
